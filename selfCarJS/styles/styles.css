@@ -1,0 +1,21 @@
+
+body {
+    padding: 2px;
+    margin: 0;
+    text-align: center;
+    overflow:hidden;
+    background:darkgray;
+}
+
+#myCanvas{
+    background: lightgray;
+}
+
+
+#mural {
+    background: coral;
+    top: 25%;
+    left: 50%;
+    background-origin: 5%;
+    position: center;    
+}

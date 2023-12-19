@@ -1,0 +1,33 @@
+body {
+  font-family: Lucida;
+  overscroll-behavior: none;
+  background-color: lightsalmon;
+}
+
+#content {
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 2px 10px 2px 10px;
+  height: 22px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+button:hover {
+  background-color: mediumseagreen;
+}
+
+button:disabled,
+button:disabled:hover {
+  background-color: gray;
+  cursor: default;
+}
